@@ -1,0 +1,12 @@
+﻿age,workclass,fnlwgt,education,education-num,marital-status,occupation,relationship,race,sex,capital-gain,capital-loss,hours-per-week,native-country,income
+51, Self-emp-not-inc,118024, Prof-school,14, Married-civ-spouse, Prof-specialty, Husband, Asian-Pac-Islander, Male,26,1773,44, Poland, >50K
+42, Private,178927, Bachelors,12, Married-civ-spouse, Sales, Husband, White, Male,22,0,56, United-States, >50K
+50, Private,154482, HS-grad,8, Separated, Adm-clerical, Unmarried, White, Female,16,0,39, United-States, <=50K
+25, Private,95889, Some-college,12, Separated, Adm-clerical, Not-in-family, White, Female,35,0,34, United-States, <=50K
+40, Private,123340, Some-college,9, Married-civ-spouse, Sales, Wife, Black, Female,-9,0,39, United-States, <=50K
+24, Private,106178, Bachelors,10, Never-married, Other-service, Own-child, Other, Female,2,0,35, Taiwan, <=50K
+25, Private,174301, Bachelors,12, Never-married, Other-service, Not-in-family, White, Female,5,0,39, United-States, <=50K
+22, Private,135915, Some-college,9, Never-married, Other-service, Unmarried, White, Female,16,0,44, Canada, <=50K
+47, Local-gov,47276, Bachelors,12, Never-married, Adm-clerical, Other-relative, Black, Female,1,1842,39, United-States, <=50K
+48, Private,88787, Bachelors,12, Married-civ-spouse, Sales, Husband, Asian-Pac-Islander, Male,-9,0,71, South, <=50K
+47, Federal-gov,175720, Masters,13, Married-civ-spouse, Transport-moving, Husband, White, Male,-1,0,39, United-States, >50K
