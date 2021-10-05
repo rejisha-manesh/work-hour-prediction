@@ -33,8 +33,7 @@ def run():
         income = st.selectbox('Income', ['<=50K', '>50K']) 
         capital_gain=st.number_input('Capital Gain')
         capital_loss=st.number_input('Capital Loss')
-               
-        native-country = st.selectbox('Native Country', ['Cambodia',
+        native_country = st.selectbox('Native Country', ['Cambodia',
                                                          'Canada',
                                                          'China',
                                                          'Columbia',
@@ -78,7 +77,7 @@ def run():
 
                         
         output=""
-        input_dict={'age':age,'workclass':work_class,'education':education,'education-num':education_num,'marital-status': marital_status,'occupation':occupation,'sex' : gender,'capital-gain' : capital_gain,'capital-loss' : capital_loss,'income' : income}
+        input_dict={'age':age,'workclass':work_class,'education':education,'education-num':education_num,'marital-status': marital_status,'occupation':occupation,'sex' : gender,'capital-gain' : capital_gain,'capital-loss' : capital_loss,'income' : income,'native-country':native_country}
         input_df = pd.DataFrame([input_dict])
         if st.button("Predict"):
             output = predict(model=model, input_df=input_df)
